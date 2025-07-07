@@ -6,13 +6,8 @@ const path = require('path');
 const querystring = require('querystring');
 var app = express()
 var port = process.env.PORT || 5000
-
-
-<<<<<<< HEAD
-      
-=======
-
->>>>>>> a5bd49cb3a7d56e1586cf964c47ea06c106a510c
+ 
+ 
 const admin = require('firebase-admin');
 
 
