@@ -1,0 +1,295 @@
+{
+  "ID": "WATCH",
+  "categories": [
+    {
+      "ID": "Weather SD",
+      "index": 0,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "AIR TEMP SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Environment.airTemperature"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "BARO SD",
+				"valueView": {
+				  "characterCount": 4,
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Environment.barometricPressure"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "TWS SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Wind.TWS"
+			  },
+			 "layout"   : 2 
+            }
+          ]
+        },
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.3",
+          "index": 3,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "TWD SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Wind.TWD"
+			  },
+              "layout"   : 2
+            }
+          ]
+        }
+	  ]
+    },   {
+      "ID": "Engine Status",
+      "index": 1,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "BAT VOLTS",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Battery.0.Voltage"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "BAT AMPS",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Battery.0.current"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Alt Volts",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.AlternatorVolts"
+			  },
+			 "layout"   : 2 
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.3",
+          "index": 3,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Tank Level",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Tank.0.level"
+			  },
+              "layout"   : 2
+            }
+          ]
+        },
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.4",
+          "index": 4,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Eng Temp",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.EngineTemperature"
+			  },
+              "layout"   : 2
+            }
+          ]
+        }
+	  ]
+    },   {
+      "ID": "Engine Run",
+      "index": 2,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "RPM",
+				"valueView": {
+				  "characterCount": 4,
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.RPM"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Eng Temp",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.EngineTemperature"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Eng Oil",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.OilPressure"
+			  },
+			 "layout"   : 2 
+            }
+          ]
+        },
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.3",
+          "index": 3,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Fuel Rate",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Engine.0.fuelRate"
+			  },
+              "layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.4",
+          "index": 4,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Port EGT",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Temperature.0.engineroom"
+			  },
+              "layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.5",
+          "index": 5,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Stbd EGT",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Temperature.0.maincabin"
+			  },
+              "layout"   : 2
+            }
+          ]
+        },
+				{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.6",
+          "index": 6,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Port MAM",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Transmission.0.oilTemperature"
+			  },
+              "layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.2.Gauge.7",
+          "index": 7,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "Stbd MAN",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Transmission.0.oilPressure"
+			  },
+              "layout"   : 2
+            }
+          ]
+        }
+	  ]
+    }	
+  ]
+}

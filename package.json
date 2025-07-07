@@ -1,0 +1,26 @@
+{
+  "name": "helmsmart-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "@influxdata/influxdb3-client": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "influx": "^5.10.0",
+    "pg": "^8.13.3",
+    "pg-format": "^1.0.4",
+    "pg-pool": "^3.7.1"
+  },
+  "engines": {
+    "node": "18.16.x"
+  }
+}

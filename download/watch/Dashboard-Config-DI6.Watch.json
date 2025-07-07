@@ -1,0 +1,75 @@
+{
+  "ID": "WATCH",
+  "categories": [
+    {
+      "ID": "Weather SD",
+      "index": 0,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "AIR TEMP SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Environment.airTemperature"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "BARO SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Environment.Barometer"
+				},
+				"layout"   : 2
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "TWS SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Wind.TWS"
+			  },
+			 "layout"   : 2 
+            }
+          ]
+        },
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.3",
+          "index": 3,
+          "items": [
+            {
+				"Class": "AKPropertyView",
+				"title": "TWD SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Wind.TWD"
+			  },
+              "layout"   : 2
+            }
+          ]
+        }
+	  ]
+    }	
+  ]
+}

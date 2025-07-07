@@ -1,0 +1,114 @@
+{
+  "ID": "WATCH",
+  "categories": [
+    {
+      "ID": "Weather temp",
+      "index": 0,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"ID": "Environment.AirTemperature",
+				"Class": "AKPropertyView",
+				"title": "TEMP SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Environment.airTemperature"
+				}
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"ID": "Environment.AirTemperature",
+				"Class": "AKPropertyView",
+				"title": "TEMP WC",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.1.Environment.airTemperature"
+				}
+            }
+          ]
+        },
+				{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"ID": "Environment.AirTemperature",
+				"Class": "AKPropertyView",
+				"title": "TEMP TIM",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.2.Environment.airTemperature"
+				}
+            }
+          ]
+        }
+	  ]
+    },	
+
+    {
+      "ID": "Weather baro",
+      "index": 1,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"ID": "Environment.Barometer",
+				"Class": "AKPropertyView",
+				"title": "BARO SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.0.Environment.Barometer"
+				}
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.1",
+          "index": 1,
+          "items": [
+            {
+				"ID": "Environment.Barometer",
+				"Class": "AKPropertyView",
+				"title": "BARO WC",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.1.Environment.Barometer"
+				}
+            }
+          ]
+        },
+				{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.2",
+          "index": 2,
+          "items": [
+            {
+				"ID": "Environment.Barometer",
+				"Class": "AKPropertyView",
+				"title": "BARO TIM",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "DeviceIndex.2.Environment.Barometer"
+				}
+            }
+          ]
+        }
+	  ]
+    }	
+  ]
+}

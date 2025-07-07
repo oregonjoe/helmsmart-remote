@@ -1,0 +1,43 @@
+{
+  "ID": "WATCH",
+  "categories": [
+    {
+      "ID": "Weather temp",
+      "index": 0,
+      "dashboards": [
+        {
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.0.Gauge.0",
+          "index": 0,
+          "items": [
+            {
+				"ID": "Environment.AirTemperature",
+				"Class": "AKPropertyView",
+				"title": "TEMP SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				   "valueKey": "Environment.airTemperature"
+				}
+            }
+          ]
+        },
+		{
+          "grid-layout": "{12,24}",
+          "ID": "Watch.Page.1.Gauge.0",
+          "index": 1,
+          "items": [
+            {
+				"ID": "Environment.Barometer",
+				"Class": "AKPropertyView",
+				"title": "BARO SD",
+				"valueView": {
+				  "Class": "AKNumberValueView",
+				  "valueKey": "Environment.barometricPressure"
+				}
+            }
+          ]
+        }
+	  ]
+    }		
+  ]
+}
